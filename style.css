@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0;
+    font-family: comfortaa;
+}
+
+box {
+    font-size: xx-large;
+
+}
+
+nav {
+    background-color: rgb(152, 172, 240);
+    padding:30px;
+    font-family: sans-serif;
+    word-spacing: 10pt;
+    color: aliceblue;
+}
+
+/* nav.A{
+    color: black;
+} */
+
+div.A {
+    width: 50px;
+    height: 8px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+    float: right; 
+}
+
+/* .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+   
+    
+}
+    
+.line {
+    height: 4px;
+    width: 100%;
+    background-color: #333;
+    transition: all 0.3s ease;
+} */
+
+input {
+    border-radius: 10px;
+}
+
+select {
+    background-color: rgb(152, 172, 240);
+    color: aliceblue;
+}
+
+div.C {
+    padding: 10px;
+    align-items: normal;
+    width: 50%;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.image {
+    max-width: 200%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.box1 {
+    width: 150px;
+    height: 50px;
+    border: 2px solid rgb(152, 172, 240);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(152, 172, 240);
+    margin: 20px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.box2 {
+    width: 150px;
+    height: 50px;
+    border: 2px solid blueviolet;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    margin: 20px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.placards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.box3 {
+    width: 150px;
+
+    height: 50px;
+
+    border: 2px solid pink;
+
+    padding: 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background-color: pink;
+
+    margin: 20px;
+
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.box4 {
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin: 20px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.containers {
+    display: flex;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    width: 30%;
+}
+
+.column {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    flex: 1; 
+    background-color: rgb(71, 71, 245);
+    border-radius: 10px;
+    
+    
+}
+
+.right-column {
+    flex: 1; 
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.column1{
+    background-color: turquoise;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 5px;
+    flex: 1; 
+    border-radius: 10px;
+    color: black;
+      
+}
+.full-span {
+    background-color: #d0d0d0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 5px;
+    width: calc(100% - 10px); 
+}
+.Cont_Box{
+border: solid rgb(71, 71, 245);
+background-color: rgb(71, 71, 245);
+border-radius: 10px;
+}
+
+.Next{
+border: solid black;
+background-color: black;
+border-radius: 10px;
+color: white;
+position:fixed;
+bottom: 40px;
+right: 80px;
+width: 70px;
+}
+
+.help-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+      
+}
+
+.help-icon:hover {
+    background-color: white;
+}
+.social{
+  position: fixed; 
+  top: 100px;
+  right: 50px;
+  width: 50px;
+  border-radius: 20%;
+  
+    
+}
